@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Open-sans", sans-serif;
+}
+
+header {
+    background-image: url(/assets/img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    /*Fonts*/
+
+    font-family: "Open-sans", sans-serif;
+    color: white;
+    text-align: right;
+    text-shadow: 2px 3px 5px black;
+}
+
+header h1 {
+    font-size: 60px;
+}
+ 
+header h2 {
+    font-size:40px;
+    font-weight: lighter;
+}
+
+.block-element {
+    display: block;
+    width: 100%;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.inline-element {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+    margin: 5px;
+}
+
+.inline-block-element {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: lightcoral;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px; /* Para centrar el texto verticalmente */
+}
+
+/* Speaker Section */
+
+.speaker{
+    background: #a4452c;
+    padding:100px;
+    color: white;
+}
+
+.speaker .wrapper{
+    width: 800px;
+    margin:auto;
+}
+
+.wrapper img{
+    width: 25%;
+}
+
+.wrapper .texto{
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Eventos Anteriores */
+
+.eventos-anteriores{
+    text-align: center;
+}
